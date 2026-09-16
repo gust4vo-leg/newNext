@@ -1,0 +1,51 @@
+.container h1 {
+    margin-bottom: 2rem;
+    font-family: "Poppins" serif;
+    font-style: italic;
+    text-decoration: underline;
+    color: brown;
+
+}
+
+.grid-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card-receita img {
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.card-receita {
+    border: 1px solid rgba(223, 193, 138, 0.568);
+    border-radius: 10px;
+    max-width: 20vw;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-receita h3 {
+    color: brown;
+}
+
+.info-alimento {
+    color: #494c4e85;
+    font-size: .7rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 7rem;
+}
+
+.card-receita strong {
+    width: 18rem;
+    color: brown;
+}
+
+.card-receita span {
+    color: #434446bb;
+}
