@@ -21,6 +21,10 @@ export default function Produto() {
       {produto != null && (
         <>
           <h1>Descrição do produto: {produto.title}</h1>
+
+          <div className="cardVisualizacao">
+            <img src={produto.images}/>
+          </div>
         </>
       )}
     </main>
