@@ -1,0 +1,22 @@
+.wrapperProduto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    border-radius: 25px;
+    padding: 10px;
+
+    background-color: cornsilk;
+}
+
+.wrapperProduto img {
+    height: auto;
+    width: 200px;
+    place-self: center;
+}
+
+.containerProdutos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}

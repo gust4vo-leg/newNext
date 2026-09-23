@@ -1,0 +1,60 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+    font-family: "Inter", sans-serif;
+  width: 80vw;
+  margin: auto;
+  flex-direction: column;
+}
+
+main h1 {
+    text-align: center;
+}
+
+.cardVisualizacao {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.cardInfo {
+    padding: 10px;
+    border: 1px solid;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+img {
+    height: auto;
+    width: 500px;
+    place-self: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.infoDetails {
+    max-width: 500px;
+    display: flex;
+    gap: 10px;
+}
+
+.infoDetails p {
+    font-weight: bold;
+}
+
+.infoDetails span {
+    font-weight: 400;
+}
+
+.diretor p {
+    font-weight: bold;
+}
+
+.diretor span {
+    font-weight: 400;
+}
