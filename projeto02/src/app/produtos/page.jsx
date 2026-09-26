@@ -16,13 +16,15 @@ export default function Produtos() {
 
   return (
     <main>
-        {listaProdutos.length > 0 &&
-            <div className="containerProdutos">
-                {listaProdutos.map(p => {
-                    return <CardProduto key={p.id} produto={p}/>
-                })}
-            </div>
-        }
+      <h1>Atividade de Slug</h1>
+      
+      {listaProdutos.length > 0 && (
+        <div className="containerProdutos">
+          {listaProdutos.map((p) => {
+            return <CardProduto key={p.id} produto={p} />;
+          })}
+        </div>
+      )}
     </main>
-  )
+  );
 }
