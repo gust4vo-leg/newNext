@@ -18,6 +18,7 @@ export default function Produto() {
 
   return (
     <main>
+      <a href="/produtos">Voltar</a>
       {produto != null && (
         <>
           <h1>Descrição do produto: {produto.title}</h1>
